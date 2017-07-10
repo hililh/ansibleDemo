@@ -4,8 +4,7 @@
   "description": "demo for ansible",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "stop": "pkill --signal SIGINT ansibleDemo"
+    "start": "node app.js"
   },
   "author": "himanshu lilha",
   "license": "BSD-2-Clause",
