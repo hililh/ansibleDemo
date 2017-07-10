@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "description": "demo for ansible",
   "main": "app.js",
+  "pr
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "stop": "pkill --signal SIGINT ansibleDemo"
   },
   "author": "himanshu lilha",
   "license": "BSD-2-Clause",
