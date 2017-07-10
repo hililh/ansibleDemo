@@ -3,7 +3,6 @@ var path = require('path');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
 
-process.title = "ansibleDemo";
 // Create our app
 var app = express();
 
