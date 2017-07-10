@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "demo for ansible",
   "main": "app.js",
-  "pr
   "scripts": {
     "start": "node app.js",
     "stop": "pkill --signal SIGINT ansibleDemo"
