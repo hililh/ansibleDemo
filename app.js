@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use('/', function(req, res, next) {
-	res.send("hey there, this is an ansible demo");
+	res.send("Hello, this is an ansible demo");
 });
 
 app.listen(4000, function () {
