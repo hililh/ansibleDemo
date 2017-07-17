@@ -17,3 +17,11 @@ app.use('/', function(req, res, next) {
 app.listen(4000, function () {
   console.log('Express server is up on port ' + 4000);
 });
+
+process.on('SIGINT', function() {
+	if(server) {
+		server.close(function() {
+			console.log("Finished all request");
+		});
+	}
+});
